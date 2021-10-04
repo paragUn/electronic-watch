@@ -12,7 +12,7 @@ public class ElectronicWatch {
         calendar.set(Calendar.HOUR, 0);
         calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, seconds);
-        SimpleDateFormat df = new SimpleDateFormat("HH:mm:ss");
+        SimpleDateFormat df = new SimpleDateFormat("H:mm:ss");
         System.out.println(df.format(calendar.getTime()));
 
     }
